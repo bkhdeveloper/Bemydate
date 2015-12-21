@@ -1,0 +1,98 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:hint="@string/lab_Iam"
+                android:textSize="22sp" />
+
+            <RadioGroup
+                android:id="@+id/AAccount_RDG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="20dp"
+                android:orientation="horizontal" >
+
+                <RadioButton
+                    android:id="@+id/AAcount_RDSexMan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="@string/lab_sex_man" />
+
+                <RadioButton
+                    android:id="@+id/AAcount_RDSexWomen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lab_sex_women" />
+            </RadioGroup>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/AAccount_EdNikName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/lab_nikname" />
+
+        <EditText
+            android:id="@+id/AAccount_EdEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/lab_Email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/AAccount_EdPassWord"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/lab_password"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/AAccount_EdCItyZIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:hint="@string/lab_VilleCP" />
+    </LinearLayout>
+
+    <Button
+        style="@style/StyleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="5dp"
+        android:layout_marginTop="40dp"
+        android:onClick="onClickValidateNewAccount"
+        android:text="@string/lab_validate" />
+
+</RelativeLayout>

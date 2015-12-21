@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bemydate</string>
+    <string name="title_login">Authentication</string>
+    <string name="lab_connect">Connect</string>
+    <string name="lab_Search">Search</string>
+    <string name="HintLogin">Insert your username</string>
+    <string name="HintPWD">Insert your password</string>
+    <string name="lab_Beconnected">Rester connecté</string>
+    <string name="lab_subscribe">Free Subscribe</string>
+    <string name="lab_sex_man">Man</string>
+    <string name="lab_sex_women">Women</string>
+    <string name="lab_Iam">I am a</string>
+    <string name="lab_Look4">Looking for a</string>
+    <string name="lab_nikname">Nikname</string>
+    <string name="lab_password">Password</string>
+    <string name="lab_VilleCP">City/ZIP</string>
+    <string name="lab_Email">Email</string>
+    <string name="lab_validate">Validate</string>
+    <string name="lab_cancel">Cancel</string>
+    <string name="lab_ok">OK</string>
+    <string name="title_activity_act__account">Create account</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_act__single_finder">Singles <b>Finder</b></string>
+    <string name="msg_singlesFinder"><b>Locate</b> singles <b>and find</b> dates in real-time <b>anytime</b> anywhere</string>
+    <string name="title_activity_act__search_result">Search result</string>
+    <string name="lab_synchor_runing">Loading....</string>
+    
+    <string name="lab_error_ExistName">NikName is already exist</string>
+    <string name="lab_error_emptyName">You must put a name</string>
+    <string name="lab_error_emptyEmail">You must put an email</string>
+    <string name="lab_error_emptyPassword">You must put a password</string>
+    <string name="lab_error_emptyCity">You must put a city code</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorTheme">#d82275</color>
+    <color name="defaultBGImage">#ffac04</color>
+    <color name="marron">#523c21</color>
+    <color name="blue">#00F</color>
+    <color name="black_transparent_Lev0">#30000000</color>
+    <color name="black_transparent_Lev1">#60000000</color>
+    <color name="black_transparent_Lev2">#90000000</color>
+    <color name="holo_blue_lev0">#b1e3fa</color>
+    <color name="holo_blue_lev1">#7bd3f7</color>
+    <color name="holo_blue_lev2">#00bcf2</color>
+    <color name="holo_gray_lev0">#e4e4e4</color>
+    <color name="holo_gray_lev1">#c8c8c8</color>
+    <color name="holo_gray_selection">#e0eaf1</color>
+
+</resources>

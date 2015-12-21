@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bemydate</string>
+    <string name="title_login">Authentification</string>
+    <string name="lab_connect">Connexion</string>
+    <string name="lab_Search">Rechercher</string>
+    <string name="HintLogin">Inserer votre login</string>
+    <string name="HintPWD">Inserer votre mot de passe</string>
+    <string name="lab_subscribe">inscription</string>
+    <string name="lab_sex_man">Homme</string>
+    <string name="lab_sex_women">Femme</string>
+    <string name="lab_Iam">Je suis </string>
+    <string name="lab_Look4">Je cherche</string>
+    <string name="lab_nikname">Nikname</string>
+    <string name="lab_password">mot de passe</string>
+    <string name="lab_VilleCP">Ville/Code</string>
+    <string name="lab_Email">Email</string>
+    <string name="lab_validate">Valider</string>
+    <string name="lab_cancel">Annuler</string>
+    <string name="lab_ok">OK</string>
+    <string name="title_activity_act__account">Créer un compte</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_act__single_finder">Singles <b>Finder</b></string>
+    <string name="msg_singlesFinder"><b>Locate</b> singles <b>and find</b> dates in real-time <b>anytime</b> anywhere</string>
+    <string name="title_activity_act__search_result">Search result</string>
+    <string name="lab_synchor_runing">chargement en cours....</string>
+    
+    <string name="lab_error_ExistName">NikName existe déja</string>
+    <string name="lab_error_emptyName">Nom obligatoire</string>
+    <string name="lab_error_emptyEmail">Email obligatoire</string>
+    <string name="lab_error_emptyPassword">Mot de passe obligatoire</string>
+    <string name="lab_error_emptyCity">Ville/Code obligatoire</string>
+
+</resources>

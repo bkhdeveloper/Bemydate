@@ -1,0 +1,135 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/my_bg" >
+
+    <TextView
+        android:id="@+id/TvLabTitle"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:text="@string/title_activity_act__single_finder"
+        android:textColor="#000"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/TvLabMsg"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/TvLabTitle"
+        android:background="@color/black_transparent_Lev1"
+        android:gravity="center"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/msg_singlesFinder"
+        android:textColor="#FFF"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:id="@+id/RlIam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TvLabMsg"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lab_Iam"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/ASFinder_TVSexMan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@color/colorTheme"
+                android:gravity="center"
+                android:text="@string/lab_sex_man"
+                android:textColor="#FFF"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ASFinder_TVSexWomen"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="#FFF"
+                android:gravity="center"
+                android:text="@string/lab_sex_women"
+                android:textColor="#888"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/RlIam"
+        android:layout_marginTop="40dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="@string/lab_Look4"
+            android:textColor="#000"
+            android:textSize="22sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/ASFinder_TVSexManLook4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="#FFF"
+                android:gravity="center"
+                android:text="@string/lab_sex_man"
+                android:textColor="#888"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/ASFinder_TVSexWomanLook4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="50"
+                android:background="@color/colorTheme"
+                android:gravity="center"
+                android:text="@string/lab_sex_women"
+                android:textColor="#FFF"
+                android:textSize="22sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ALogin_BtnValider"
+        style="@style/StyleButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:onClick="onClickSearch"
+        android:text="@string/lab_Search" />
+
+</RelativeLayout>
